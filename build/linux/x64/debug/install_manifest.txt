@@ -1,0 +1,15 @@
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/ascgui
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/lib/libscreen_retriever_linux_plugin.so
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/lib/libwindow_manager_plugin.so
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/shaders/stretch_effect.frag
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/lotte/Documents/Proyectos/ascgui/build/linux/x64/debug/bundle/data/flutter_assets/NativeAssetsManifest.json
