@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:window_manager/window_manager.dart';
 
-const kAppTitle = 'Another ScrCpy GUI (ascgui)';
+const kAppTitle = 'ascgui';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
