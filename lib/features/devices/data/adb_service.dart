@@ -1,5 +1,5 @@
 import 'dart:developer' show log;
-import 'dart:nativewrappers/_internal/vm/bin/common_patch.dart';
+import 'dart:io';
 
 import 'package:ascgui/features/devices/domain/adb_service.dart';
 
@@ -16,7 +16,7 @@ class ADBService {
   final String adbPath;
 
   Future<List<ADBDevice>> listDevices() async {
-    final result = await Process.run(adbPath, ['device', '-l']);
+    final result = await Process.run(adbPath, ['devices', '-l']);
 
     log('[ADBService] listDevices result.exitCode: ${result.exitCode}');
     if(result.exitCode != 0) {
@@ -33,7 +33,8 @@ List<ADBDevice> parseAdbDevices(String output) {
     final line = raw.trim();
     if (line.isEmpty || line.startsWith('List of devices') || line.startsWith('*')) continue;
 
-    final parts = line.split(RegExp(r'\r?\n'));
+    //final parts = line.split(RegExp(r'\r?\n'));
+    final parts = line.split(RegExp(r'\s+'));
     if (parts.length < 2) continue;
 
     final model = parts

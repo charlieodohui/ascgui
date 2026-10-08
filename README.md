@@ -2,7 +2,9 @@
 
 Because the world needed EVEN ANOTHER scrcpy GUI project. This project originated from my work as a developer of Android mobile apps built in Flutter, outside the Android Studio environment, and to make presenting product progress on video calls easier. This project's development is designed around my day-to-day needs and the emerging ones as I keep growing as a developer.
 
-> **Last updated:** 2026-10-07
+This project **IS NOT VIBECODED**, since its creation is focused on developing personal coding abilities and learning. The AI use is limited specifically towards consultant, debug guiding and second opinion; everything else is made through research in forums and official documentation and collaborators are expected to behave as such.
+
+> **Last updated:** 2026-10-08
 
 <!--
 ## Documentation
@@ -42,11 +44,12 @@ Once FVM is installed, download the dependencies by running the following comman
 fvm flutter pub get
 ```
 
-## Pending
+## ToDo list
 
 | Status | Feature | Notes |
 | --- | --- | --- |
-| Pending | Show first GUI | The app is just getting started lol |
+| Done | Show first GUI | Now it shows the devices, launches scrcpy and can configure PATHs of tools |
+| Pending | Do a Changelog MD |  |
 
 ## Educated Wishes
 
@@ -54,6 +57,8 @@ fvm flutter pub get
 | --- | --- |
 | Multiple devices | No time to get to that yet |
 | Stream iOS | Needs research |
+| Windows build | Later |
+| MacOS build | Later |
 
 <!--
 ## Suggestions for a good README

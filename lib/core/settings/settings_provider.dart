@@ -18,8 +18,15 @@ class SettingsNotifier extends Notifier<Settings> {
     await ref.read(settingsRepositoryProvider).save(next);
     state = next;
   }
+
+  Future<void> setScrcpyPath(String? scrcpyPath) =>
+    update(Settings(adbPath: state.adbPath, scrcpyPath: scrcpyPath));
+
+  Future<void> setAdbPath(String? adbPath) =>
+    update(Settings(adbPath: adbPath, scrcpyPath: state.scrcpyPath));
 }
 
 final settingsProvider = NotifierProvider<SettingsNotifier, Settings>(
   SettingsNotifier.new,
 );
+
