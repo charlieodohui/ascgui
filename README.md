@@ -49,7 +49,7 @@ fvm flutter pub get
 | Status | Feature | Notes |
 | --- | --- | --- |
 | Done | Show first GUI | Now it shows the devices, launches scrcpy and can configure PATHs of tools |
-| Pending | Do a Changelog MD |  |
+| Pending | Do a Changelog MD | [https://keepachangelog.com/en/1.1.0/] |
 
 ## Educated Wishes
 
